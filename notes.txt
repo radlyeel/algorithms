@@ -1,0 +1,8 @@
+Reference:
+Structures and Algorithms with C++ 100+ Coding Q&A Yasin Cakal, Kindle
+Starting with:
+Dynamic Arrays in C++ p. 69
+  std::vector
+
+
+

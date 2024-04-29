@@ -1,0 +1,15 @@
+# A starter template for Makefiles to be used in this exercise
+PROG = demo
+OBJS = insertion_sort.o
+
+CPP = g++
+
+$(PROG): $(OBJS)
+	$(CPP) $(OBJS) -o $(PROG)
+
+clean:
+	rm -rf $(PROJ) $(OBJS)
+
+test: $(PROG)
+	./$(PROG)
+
