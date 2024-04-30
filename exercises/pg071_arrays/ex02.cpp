@@ -1,3 +1,7 @@
+/* Write a program to create a dynamic array of 10 integers and print its
+ * elements.
+ */
+
 #include <iostream>
 
 #define SIZE 10
