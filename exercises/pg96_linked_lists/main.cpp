@@ -9,14 +9,19 @@
  * value of the element.
  */
 
-#include "singlylinked.h"
+#include "doublylinked.h"
 int main() {
-    SinglyLinkedList<int> sll;
-    sll.insertAtBeginning(19);
-    sll.insertAtBeginning(42);
-    sll.insertAtBeginning(9);
-    sll.deleteByValue(42);
-    sll.dump();
+    DoublyLinkedList<int> dll;
+
+    dll.insertAtBeginning(19);
+    dll.insertAtBeginning(42);
+    dll.insertAtBeginning(9);
+    dll.dump();
+
+    dll.deleteByValue(42);
+    std::cout << "delete done" << std::endl;
+    dll.dump();
+    
     return 0;
 }
 
